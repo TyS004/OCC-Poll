@@ -19,13 +19,23 @@ body {
     margin-top: -3%;
 }
 
-.home {
+
+.nav-item {
     color: inherit;
     text-decoration: none;
 
     position: relative;
 
     margin-left: 25%;
+    bottom: 15px;
+}
+.home {
+    color: inherit;
+    text-decoration: none;
+
+    position: relative;
+
+    left: 25%;
     bottom: 15px;
 }
 
@@ -35,7 +45,7 @@ body {
 
     position: relative;
 
-    margin-left: 25%;
+    left: 50%;
     bottom: 15px;
 }
 
@@ -45,7 +55,7 @@ body {
 
     position: relative;
 
-    margin-left: 25%;
+    left: 75%;
     bottom: 15px;
 }
 
@@ -75,6 +85,7 @@ body {
 }
 
 .medium-font {
+    font-family: 'Inter';
     font-weight: 550;
     font-size: 25px;
 }
