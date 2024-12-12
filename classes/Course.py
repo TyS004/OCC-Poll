@@ -1,5 +1,3 @@
-import Section as s
-
 class Course:
     def __init__(self, semester, sections, course_id = 000000):
         self.semester = semester
